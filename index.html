@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFix Pro | Home</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Optional: Add some custom styles -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .jumbotron {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .service-card {
+            transition: transform 0.2s;
+            height: 100%;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding-top: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">TechFix Pro</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section / Jumbotron -->
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1 class="display-4">Expert Tech Repair & Engineering</h1>
+            <p class="lead">Fast, reliable, and professional service for your phones, laptops, software, vehicles, and electrical needs.</p>
+            <a class="btn btn-primary btn-lg" href="services.html" role="button">View My Services</a>
+        </div>
+    </div>
+
+    <!-- Services Overview Section -->
+    <div class="container">
+        <h2 class="text-center mb-4">What I Do</h2>
+        <div class="row">
+
+            <!-- Service 1: Hardware Repair -->
+            <div class="col-md-3 mb-4">
+                <div class="card service-card">
+                    <img src="pictures/hardware repair.jpg" class="card-img-top" alt="Phone and laptop repair tools">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Hardware Repair</h5>
+                        <p class="card-text">Specializing in screen replacements, battery issues, and component-level repairs for all major phone and laptop brands.</p>
+                        <a href="services.html#hardware" class="btn btn-outline-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 2: Software Solutions -->
+            <div class="col-md-3 mb-4">
+                <div class="card service-card">
+                    <img src="pictures/software solution.jpg" class="card-img-top" alt="Software code on a screen">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Software Solutions</h5>
+                        <p class="card-text">From virus removal and OS installation to performance optimization and data recovery. I solve your software problems.</p>
+                        <a href="services.html#software" class="btn btn-outline-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 3: Electrical Engineering -->
+            <div class="col-md-3 mb-4">
+                <div class="card service-card">
+                    <img src="pictures/ele repair 2.jpg" class="card-img-top" alt="An electronic circuit board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Electrical Engineering</h5>
+                        <p class="card-text">Professional services in circuit design, PCB prototyping, and electronic system troubleshooting.</p>
+                        <a href="services.html#engineering" class="btn btn-outline-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NEW Service 4: Automotive Electrical -->
+            <div class="col-md-3 mb-4">
+                <div class="card service-card">
+                    <img src="pictures/auto repair.jpg" class="card-img-top" alt="Mechanic working on a car's electrical system">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Automotive Electrical</h5>
+                        <p class="card-text">Expert diagnosis and repair of modern car electrical systems, from battery issues to complex wiring faults.</p>
+                        <a href="services.html#automotive" class="btn btn-outline-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2025 TechFix Pro. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

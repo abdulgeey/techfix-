@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFix Pro | Contact Me</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Optional: Add some custom styles -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .contact-section {
+            padding: 60px 0;
+        }
+        .contact-form {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        .contact-info-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .contact-info-list li {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        .contact-info-list a {
+            color: #343a40;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact-info-list a:hover {
+            color: #007bff; /* Bootstrap primary color */
+            text-decoration: none;
+        }
+        .contact-info-list i {
+            font-size: 1.5rem;
+            width: 40px;
+            color: #007bff;
+            text-align: center;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding-top: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">TechFix Pro</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="container text-center mt-5">
+        <h1>Contact Me</h1>
+        <p class="lead">Have a question or want to start a project? Get in touch!</p>
+    </div>
+
+    <!-- Contact Form & Info Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Form Column -->
+                <div class="col-md-7 mb-4 mb-md-0">
+                    <div class="contact-form">
+                        <h3 class="mb-4">Send Me a Direct Message</h3>
+                        <!-- The form is now functional with Formspree -->
+                        <form action="https://formspree.io/f/myzrnwol" method="POST">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="your.email@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Needed</label>
+                                <select class="form-control" id="service" name="service">
+                                    <option selected>Choose...</option>
+                                    <option>Hardware Repair (Phone/Laptop)</option>
+                                    <option>Software Solutions</option>
+                                    <option>Electrical Engineering</option>
+                                    <option>Automotive Electrical</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Describe your issue or project..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg btn-block">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Contact Info Column -->
+                <div class="col-md-5">
+                    <h3 class="mb-4">Or Reach Me Directly</h3>
+                    <p>Feel free to contact me via WhatsApp or my social media for a faster response.</p>
+                    <ul class="contact-info-list">
+                        <!-- WhatsApp Link -->
+                        <li>
+                            <a href="https://wa.me/2349036382586" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                Chat on WhatsApp
+                            </a>
+                        </li>
+                        <!-- Instagram Link -->
+                        <li>
+                            <a href="https://www.instagram.com/don_agy" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                                Follow on Instagram (@don_agy)
+                            </a>
+                        </li>
+                        <!-- X (Twitter) Link -->
+                        <li>
+                            <a href="https://twitter.com/abdul_geey" target="_blank">
+                                <i class="fab fa-x-twitter"></i>
+                                Follow on X (@abdul_geey)
+                            </a>
+                        </li>
+                        <!-- Facebook Link -->
+                        <li>
+                            <a href="https://www.facebook.com/abdul.aziz.garba" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                                Find me on Facebook
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2025 TechFix Pro. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
